@@ -13,6 +13,23 @@ $(function () {
   // useful when saving the description in local storage?
 
 
+var hour9El = $('#hour-9');
+var hour10El = $('#hour-10');
+var hour11El = $('#hour-11');
+var hour12El = $('#hour-12');
+var hour13El = $('#hour-13');
+var hour14El = $('#hour-14');
+var hour15El = $('#hour-15');
+var hour16El = $('#hour-16');
+var hour7El = $('#hour-17');
+
+
+hour9El.on('click', function () {
+  alert('Hello')
+
+});
+
+
 
   //
   // TODO: Add code to apply the past, present, or future class to each time
@@ -21,13 +38,20 @@ $(function () {
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
   //
+
+
+
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
   //
+
+
+
   // TODO: Add code to display the current date in the header of the page.
 });
 
 var today = dayjs();
 $('#currentDay').text (today.format('[Today is] dddd MMMM D, YYYY'))
+
 
