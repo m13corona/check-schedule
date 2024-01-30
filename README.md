@@ -11,6 +11,6 @@ To create this application I used:
 ![Screenshot 2024-01-29 at 11 12 32 p m  2](https://github.com/m13corona/check-schedule/assets/152875862/d4ba541f-e457-4c0d-ade3-17f51bc001ed)
 
 ## Link to deployed application
-
+https://m13corona.github.io/check-schedule/
 ## Sources
 This code was made using the code from the activities as reference.
